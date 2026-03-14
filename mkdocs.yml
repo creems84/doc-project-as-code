@@ -1,0 +1,81 @@
+site_name: Мой домашний проект # Название сайта
+site_description: Профессиональное портфолио # Описание сайта, добавляется в meta-теги
+
+theme:
+  name: material
+  logo: images/logo.svg
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: ru
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Выключить солнышко
+      primary: blue
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Позвать солнышко
+      primary: deep purple
+      accent: blue
+  features:
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+nav:
+  - Главная: index.md
+
+  - Основы Linux:
+      - Инструкции:
+          - Навигация по файловой системе: section1/instructions/instruction1.md
+          - Работа с файлами: section1/instructions/instruction2.md
+      - Проблемы:
+          - Файл не создаётся: section1/problems/problem1.md
+          - Ошибка при переходе в папку: section1/problems/problem2.md
+
+  - Работа с пользователями и группами:
+      - Инструкции:
+          - Управление пользователями: section2/instructions/instruction1.md
+          - Группы и права: section2/instructions/instruction2.md
+      - Проблемы:
+          - Пользователь не виден: section2/problems/problem1.md
+          - Недостаточно прав: section2/problems/problem2.md
+
+  - Сервисы и логирование:
+      - Инструкции:
+          - Управление сервисами: section3/instructions/instruction1.md
+          - Просмотр логов: section3/instructions/instruction2.md
+      - Проблемы:
+          - Сервис не запускается: section3/problems/problem1.md
+          - Логи пустые: section3/problems/problem2.md
+
+  - Инструкция по Telegram:
+      - Как отправить отложенное сообщение: section4/creems84-instruction.md
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
