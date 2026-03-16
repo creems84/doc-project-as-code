@@ -60,6 +60,7 @@ nav:
 
   - Домашняя работа:
       - Как отправить отложенное сообщение: section4/creems84-instruction.md
+      - Пользовательский сценарий «Удаление заметки»: section4/delete-note-script.md
 
 markdown_extensions:
   - admonition
