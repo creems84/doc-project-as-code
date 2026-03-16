@@ -58,7 +58,7 @@ nav:
           - Сервис не запускается: section3/problems/problem1.md
           - Логи пустые: section3/problems/problem2.md
 
-  - Инструкция по Telegram:
+  - Домашняя работа:
       - Как отправить отложенное сообщение: section4/creems84-instruction.md
 
 markdown_extensions:
