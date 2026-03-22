@@ -8,13 +8,20 @@ theme:
     text: Roboto
     code: Roboto Mono
   language: ru
-  palette:
-    - scheme: default
+  palette:   # Настройки тем
+    - scheme: my-scheme
       toggle:
-        icon: material/weather-sunny
-        name: Выключить солнышко
-      primary: blue
-      accent: purple
+        icon: material/weather-sunny # Активация светлой темы
+        name: Выключить # Всплывающая подсказка
+
+#   - scheme: default
+#      toggle:
+#        icon: material/weather-sunny
+#        name: Выключить солнышко
+#      primary: blue
+#      accent: purple
+
+  # Настройки тёмной темы
     - scheme: slate
       toggle:
         icon: material/weather-night
@@ -82,6 +89,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets    
 
 plugins:
   - search
@@ -90,3 +98,6 @@ plugins:
   - redoc-tag
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+
+extra_css:
+  - stylesheets/extra.css    
