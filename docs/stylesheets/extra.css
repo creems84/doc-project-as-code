@@ -10,20 +10,6 @@
   --md-footer-bg-color: #c8e1d6;    /* Фон футера – нежный зелёный оттенок */
 }
 
-/* Настройки светлой темы */
-
-[data-md-color-scheme="my-scheme"] {
-  --md-primary-fg-color: #a3d9c1;   /* Основной цвет – мягкий мятный */
-  --md-accent-fg-color: #f7c6b7;    /* Акцентный цвет – нежный персиковый */
-  --md-typeset-a-color: #f7a8a7;    /* Цвет ссылок – пастельный коралловый */
-  --md-default-bg-color: #fffaf0;   /* Фон – кремово-бежевый */
-  --md-default-fg-color: #5e5b52;   /* Основной текст – мягкий тёмно-серый */
-  --md-code-bg-color: #f0f0f5;      /* Фон блока кода – светлый сиреневый оттенок */
-  --md-code-fg-color: #5b5b5b;      /* Текст кода – тёмно-серый */
-  --md-default-fg-color--light: #7d7a72; /* Заголовки и h1 – мягкий серо-коричневый */
-  --md-footer-bg-color: #c8e1d6;    /* Фон футера – нежный зелёный оттенок */
-}
-
 /* Настройки тёмной схемы */
 
 [data-md-color-scheme="slate"] {
