@@ -99,6 +99,8 @@ plugins:
   - redoc-tag
   - plantuml:
       puml_url: https://www.plantuml.com/plantuml/
+      theme:
+        enabled: false
 
 extra_css:
   - stylesheets/extra.css    
