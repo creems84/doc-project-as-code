@@ -29,7 +29,7 @@
 [data-md-color-scheme="slate"] {
   --md-primary-fg-color: #0B61A4; /*Основной цвет*/
   --md-accent-fg-color: #1565C0; /*Акцентный цвет*/
-  --md-typeset-a-color: #318bf1; /*Цвет ссылок*/
+  --md-typeset-a-color: #0e70e0; /*Цвет ссылок*/
   --md-default-bg-color: #f0f8ff; /*Фоновый цвет*/
   --md-default-fg-color: #353535; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
   --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
