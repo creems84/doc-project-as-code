@@ -1,0 +1,65 @@
+[data-md-color-scheme="default"] {
+    --md-primary-fg-color: #a3d9c1;   /* Основной цвет – мягкий мятный */
+  --md-accent-fg-color: #f7c6b7;    /* Акцентный цвет – нежный персиковый */
+  --md-typeset-a-color: #f7a8a7;    /* Цвет ссылок – пастельный коралловый */
+  --md-default-bg-color: #fffaf0;   /* Фон – кремово-бежевый */
+  --md-default-fg-color: #5e5b52;   /* Основной текст – мягкий тёмно-серый */
+  --md-code-bg-color: #f0f0f5;      /* Фон блока кода – светлый сиреневый оттенок */
+  --md-code-fg-color: #5b5b5b;      /* Текст кода – тёмно-серый */
+  --md-default-fg-color--light: #7d7a72; /* Заголовки и h1 – мягкий серо-коричневый */
+  --md-footer-bg-color: #c8e1d6;    /* Фон футера – нежный зелёный оттенок */
+}
+
+/* Настройки светлой темы */
+
+[data-md-color-scheme="my-scheme"] {
+  --md-primary-fg-color: #a3d9c1;   /* Основной цвет – мягкий мятный */
+  --md-accent-fg-color: #f7c6b7;    /* Акцентный цвет – нежный персиковый */
+  --md-typeset-a-color: #f7a8a7;    /* Цвет ссылок – пастельный коралловый */
+  --md-default-bg-color: #fffaf0;   /* Фон – кремово-бежевый */
+  --md-default-fg-color: #5e5b52;   /* Основной текст – мягкий тёмно-серый */
+  --md-code-bg-color: #f0f0f5;      /* Фон блока кода – светлый сиреневый оттенок */
+  --md-code-fg-color: #5b5b5b;      /* Текст кода – тёмно-серый */
+  --md-default-fg-color--light: #7d7a72; /* Заголовки и h1 – мягкий серо-коричневый */
+  --md-footer-bg-color: #c8e1d6;    /* Фон футера – нежный зелёный оттенок */
+}
+
+/* Настройки тёмной схемы */
+
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0B61A4; /*Основной цвет*/
+  --md-accent-fg-color: #1565C0; /*Акцентный цвет*/
+  --md-typeset-a-color: #0e70e0; /*Цвет ссылок*/
+  --md-default-bg-color: #f0f8ff; /*Фоновый цвет*/
+  --md-default-fg-color: #353535; /*Основной цвет текста (абзацы, списки, подзаголовки, nav и toc)*/
+  --md-code-bg-color: #ffffff; /*Цвет фона блока кода*/
+  --md-code-fg-color: #5c5b5b; /*Цвет текста в блоке кода*/
+  --md-default-fg-color--light: #4e4d4d; /*Цвет h1 и заголовков блоков toc и nav*/
+}
+
+/* Основной текст */
+.md-typeset {
+  font-family: 'Tahoma', 'Arial';
+  font-size: 16px;
+  color: #4b5563;
+}
+
+/* Заголовки */
+.md-content h1, 
+.md-content h2, 
+.md-content h3 {
+  font-family: 'Roboto Mono';
+  font-weight: 600;
+}
+
+.md-typeset img {
+  display: block;
+  margin: 24px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+img[src*="plantuml"] {
+  display: block;
+  margin: 32px auto;
+} 
