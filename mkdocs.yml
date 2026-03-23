@@ -9,17 +9,17 @@ theme:
     code: Roboto Mono
   language: ru
   palette:   # Настройки тем
-    - scheme: my-scheme
-      toggle:
-        icon: material/weather-sunny # Активация светлой темы
-        name: Выключить # Всплывающая подсказка
-
-#   - scheme: default
+#    - scheme: my-scheme
 #      toggle:
-#        icon: material/weather-sunny
-#        name: Выключить солнышко
-#      primary: blue
-#      accent: purple
+#        icon: material/weather-sunny # Активация светлой темы
+#        name: Выключить # Всплывающая подсказка
+
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Выключить солнышко
+      primary: blue
+      accent: purple
 
   # Настройки тёмной темы
     - scheme: slate
@@ -28,6 +28,7 @@ theme:
         name: Позвать солнышко
       primary: deep purple
       accent: blue
+  
   features:
     - navigation.sections
     - navigation.path
